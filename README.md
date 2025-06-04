@@ -6,6 +6,7 @@ This is the repository for the Robot Programming exam academic year 2024-2025
   2. astar_planner: it is the code for implementing the A* algorithm used in dynamic_planner.cpp
   3. laser_processor: it is the code that turns a LaserScan into a 2D map, marking the spots hit by valid laser beams as occupied
   4. distance_map:it is the code that calculates a distance map from obstacles in a grid map, using a breadth-first search algorithm
+
 and the respectively .h files
 
 First commit: upload of the file that implement the dynamic planner. No problem in building process
