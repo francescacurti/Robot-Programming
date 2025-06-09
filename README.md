@@ -12,3 +12,11 @@ and the respectively .h files
 First commit: upload of the file that implement the dynamic planner. No problem in building process
 
 Next commit: a laser publisher in order to test the dynamic planner
+
+Second commit: I published a simple laser_publisher in order to test my dynamic_planner with 3 fixed obstacles. The laser publisher publish every 100ms a laser_scan and we can see it in the terminal. The visualization can be done with rviz2 where you can test the dynamic planner by defining a new 2d goal pose. 
+
+In order to test with the simple laser_publisher the dynamic_planner you need to open 3 terminals:
+  1. execute dynamic_planner_node with: colcon build --> source install/setup.bash --> ros2 run dynamic_planner dynamic_planner_node
+  2. execute laser_publisher with: colcon build --> source install/setup.bash --> ros2 run dynamic_planner laser_publisher
+  3. open  rviz2 with: rviz2
+   
