@@ -20,3 +20,4 @@ In order to test with the simple laser_publisher the dynamic_planner you need to
   2. execute laser_publisher with: colcon build --> source install/setup.bash --> ros2 run dynamic_planner laser_publisher
   3. open  rviz2 with: rviz2
    
+Third commit: I updated a more complex laser_publisher which publish every 7 seconds 20 random obstacles in a circle. Every 10 seconds the old obstacles are erased in order to have only the new obstacles. It also compute the perpendicular distance of the obastacles with the path in order to take in consideration only the obstacles that are visible from the path. 
