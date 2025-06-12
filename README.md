@@ -9,8 +9,6 @@ This is the repository for the Robot Programming exam academic year 2024-2025
 
 and the respectively .h files
 
-Next commit: a laser publisher in order to test the dynamic planner
-
 Second commit: I published a simple laser_publisher in order to test my dynamic_planner with 3 fixed obstacles. The laser publisher publish every 100ms a laser_scan and we can see it in the terminal. The visualization can be done with rviz2 where you can test the dynamic planner by defining a new 2d goal pose. 
 
 In order to test with the simple laser_publisher the dynamic_planner you need to open 3 terminals:
